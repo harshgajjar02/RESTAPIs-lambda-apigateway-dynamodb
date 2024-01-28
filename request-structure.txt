@@ -1,0 +1,35 @@
+//request json
+//post user json
+{
+    "payload" : {
+        "Item": {
+            "id": "1255",
+            "username":"bittu",
+            "description":"hello there"
+        }
+    }
+}
+
+
+//update user json 
+{
+    "payload" : {
+       "id":"1255",
+       "attributes" : {
+           "username":"Harsh",
+           "description": "i like anime"
+       }
+ }
+}
+
+//get single user just pass the id in parameters
+
+//delete user json 
+{
+    "payload":{
+        
+    "Key": {
+      "id": "1275"
+    }
+    }
+}
