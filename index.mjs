@@ -17,8 +17,8 @@ const tablename = "Users";
 export const handler = async (event) => {
   let response;
 
-  const getallusersPath = "/DynamoDBManager/getallusers";
-  const userpath = "/DynamoDBManager/user";
+  const getallusersPath = "/getallusers";
+  const userpath = "/user";
   const body = JSON.parse(event.body);
   // event.payload.TableName = tablename;
   switch (true) {
